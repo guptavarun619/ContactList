@@ -1,13 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <h1 class="text-3xl font-bold underline">
-      Hello, Vite
+    <div className="App h-screen w-screen">
+      <h1 class="text-4xl font-bold text-center">
+      Contact List
       </h1>
     </div>
   )
